@@ -140,10 +140,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Learning IOCTL Usermode.cpp" />
+    <ClCompile Include="cheat.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KInterface.h" />
+    <ClInclude Include="cheat.hpp" />
+    <ClInclude Include="definitions.hpp" />
+    <ClInclude Include="KInterface.hpp" />
+    <ClInclude Include="memory.hpp" />
+    <ClInclude Include="offsets.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

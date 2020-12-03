@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Driver Development\Learning IOCTL\x64\Release\Learning IOCTL Usermode.exe</FullPath>
+      <FullPath>E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\Learning IOCTL Usermode.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

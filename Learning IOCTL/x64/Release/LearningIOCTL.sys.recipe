@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Driver Development\Learning IOCTL\x64\Release\LearningIOCTL.sys</FullPath>
+      <FullPath>E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\LearningIOCTL.sys</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -163,12 +163,14 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IOCTL.c" />
-    <ClCompile Include="memory.c" />
+    <ClCompile Include="IOCTL.cpp" />
+    <ClCompile Include="memory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="includes.h" />
-    <ClInclude Include="memory.h" />
+    <ClInclude Include="definitions.hpp" />
+    <ClInclude Include="memory.hpp" />
+    <ClInclude Include="ntapi.hpp" />
+    <ClInclude Include="ntstructs.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

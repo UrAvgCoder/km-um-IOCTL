@@ -5,24 +5,44 @@ e:\driver development\learning ioctl\x64\release\learning ioctl\learningioctl.ca
 e:\driver development\learning ioctl\x64\release\learningioctl.sys
 e:\driver development\learning ioctl\x64\release\learningioctl.pdb
 e:\driver development\learning ioctl\x64\release\learningioctl.inf
-e:\driver development\learning ioctl\x64\release\learningioctl.cer
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\cl.command.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\cl.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\cl.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.10716.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.10716.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.command.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\link.command.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\link.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\link.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\signtool.command.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\signtool.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\signtool.timestamp.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\signtool.write.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\stampinf.command.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\stampinf.read.1.tlog
-e:\driver development\learning ioctl\x64\release\learning ioctl.tlog\stampinf.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learningioctl.cer
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learningioctl.inf
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\ioctl.obj
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\memory.obj
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl usermode.ipdb
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl usermode.iobj
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learningioctl.pdb
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\vc142.pdb
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learningioctl.sys
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\cl.command.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\cl.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\cl.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.10200.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.10200.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13044.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13044.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13348.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13348.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13596.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.13596.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.2400.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.2400.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.6248.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.6248.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.8624.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.8624.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat-expand.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.command.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\inf2cat.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\link.command.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\link.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\link.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\signtool.command.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\signtool.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\signtool.timestamp.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\signtool.write.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\stampinf.command.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\stampinf.read.1.tlog
+e:\kernel development\km-um-ioctl\learning ioctl\x64\release\learning ioctl.tlog\stampinf.write.1.tlog

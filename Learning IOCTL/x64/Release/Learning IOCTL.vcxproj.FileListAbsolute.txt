@@ -1,1 +1,2 @@
 E:\Driver Development\Learning IOCTL\x64\Release\LearningIOCTL.sys
+E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\LearningIOCTL.sys

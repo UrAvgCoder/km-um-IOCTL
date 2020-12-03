@@ -1,12 +1,12 @@
 ﻿  Building 'Learning IOCTL' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Release\LearningIOCTL.inf
-  Stamping [Version] section with DriverVer=12/01/2020,16.21.15.341
-  memory.c
-E:\Driver Development\Learning IOCTL\memory.h(4,39): warning C4131: 'get_base_addr64': uses old-style declarator
-E:\Driver Development\Learning IOCTL\memory.c(53,24): warning C4242: 'return': conversion from 'ULONG64' to 'ULONG', possible loss of data
-  Learning IOCTL.vcxproj -> E:\Driver Development\Learning IOCTL\x64\Release\LearningIOCTL.sys
+  Stamping [Version] section with DriverVer=12/03/2020,15.56.27.875
+  IOCTL.cpp
+  memory.cpp
+  Generating Code...
+  Learning IOCTL.vcxproj -> E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\LearningIOCTL.sys
   Done Adding Additional Store
-  Successfully signed: E:\Driver Development\Learning IOCTL\x64\Release\LearningIOCTL.sys
+  Successfully signed: E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\LearningIOCTL.sys
   
   Driver is 'Universal'.
   .........................
@@ -19,7 +19,7 @@ E:\Driver Development\Learning IOCTL\memory.c(53,24): warning C4242: 'return': c
   None
   
   Catalog generation complete.
-  E:\Driver Development\Learning IOCTL\x64\Release\Learning IOCTL\learningioctl.cat
+  E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\Learning IOCTL\learningioctl.cat
   Done Adding Additional Store
-  Successfully signed: E:\Driver Development\Learning IOCTL\x64\Release\Learning IOCTL\learningioctl.cat
+  Successfully signed: E:\kernel Development\km-um-IOCTL\Learning IOCTL\x64\Release\Learning IOCTL\learningioctl.cat
   
