@@ -1,0 +1,10 @@
+﻿  Learning IOCTL Usermode.cpp
+E:\Driver Development\Learning IOCTL Usermode\Learning IOCTL Usermode.cpp(49,9): warning C4477: 'printf' : format string '%llu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'ULONG'
+E:\Driver Development\Learning IOCTL Usermode\Learning IOCTL Usermode.cpp(49,9): message : consider using '%lu' in the format string
+E:\Driver Development\Learning IOCTL Usermode\Learning IOCTL Usermode.cpp(45,19): warning C4101: 'pData': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+E:\Driver Development\Learning IOCTL Usermode\Learning IOCTL Usermode.cpp(32): warning C4715: 'get_process_id': not all control paths return a value
+  All 33 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Learning IOCTL Usermode.vcxproj -> E:\Driver Development\Learning IOCTL\x64\Release\Learning IOCTL Usermode.exe

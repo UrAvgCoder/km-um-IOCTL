@@ -1,0 +1,6 @@
+﻿  Building 'Learning IOCTL' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping Debug\LearningIOCTL.inf
+  Stamping [Version] section with DriverVer=11/30/2020,15.47.53.995
+  IOCTL.c
+E:\Driver Development\Learning IOCTL\IOCTL.c(64,43): error C2220: the following warning is treated as an error
+E:\Driver Development\Learning IOCTL\IOCTL.c(64,43): warning C4100: 'pDriverObject': unreferenced formal parameter

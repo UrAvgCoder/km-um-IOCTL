@@ -1,0 +1,90 @@
+;
+; LearningIOCTL.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=LearningIOCTL.cat
+DriverVer = 11/30/2020,15.47.53.995
+PnpLockDown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+LearningIOCTL_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+LearningIOCTL.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTx86
+
+[Standard.NTx86]
+%LearningIOCTL.DeviceDesc%=LearningIOCTL_Device, Root\LearningIOCTL ; TODO: edit hw-id
+
+[LearningIOCTL_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+LearningIOCTL.sys
+
+;-------------- Service installation
+[LearningIOCTL_Device.NT.Services]
+AddService = LearningIOCTL,%SPSVCINST_ASSOCSERVICE%, LearningIOCTL_Service_Inst
+
+; -------------- LearningIOCTL driver install sections
+[LearningIOCTL_Service_Inst]
+DisplayName    = %LearningIOCTL.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\LearningIOCTL.sys
+
+;
+;--- LearningIOCTL_Device Coinstaller installation ------
+;
+
+[LearningIOCTL_Device.NT.CoInstallers]
+AddReg=LearningIOCTL_Device_CoInstaller_AddReg
+CopyFiles=LearningIOCTL_Device_CoInstaller_CopyFiles
+
+[LearningIOCTL_Device_CoInstaller_AddReg]
+;
+
+
+[LearningIOCTL_Device_CoInstaller_CopyFiles]
+;
+
+
+[LearningIOCTL_Device.NT.Wdf]
+KmdfService =  LearningIOCTL, LearningIOCTL_wdfsect
+[LearningIOCTL_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "LearningIOCTL Installation Disk"
+LearningIOCTL.DeviceDesc = "LearningIOCTL Device"
+LearningIOCTL.SVCDESC = "LearningIOCTL Service"
