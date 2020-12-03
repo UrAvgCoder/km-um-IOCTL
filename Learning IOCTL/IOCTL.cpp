@@ -41,6 +41,7 @@ NTSTATUS OnIoControl(PDEVICE_OBJECT pDeviceObject, PIRP pIrp) {
 			SKernelReadData obj = { 0 };
 			obj.pid = IO_INPUT(pKernelReadData)->pid;
 			obj.address = IO_INPUT(pKernelReadData)->address;
+			obj.size = IO_INPUT(pKernelReadData)->size;
 			PEPROCESS proc;
 			if (!PsLookupProcessByProcessId((HANDLE)obj.pid, &proc)) {
 				return 0;
@@ -50,10 +51,19 @@ NTSTATUS OnIoControl(PDEVICE_OBJECT pDeviceObject, PIRP pIrp) {
 		break;
 		
 		case WRITE_DATA: {
-
+			DbgPrintEx(0, 0, "Write Data IOCTL received\n");
+			SKernelWriteData obj = { 0 };
+			obj.pid = IO_INPUT(pKernelWriteData)->pid;
+			obj.address = IO_INPUT(pKernelWriteData)->address;
+			obj.buffer = IO_INPUT(pKernelWriteData)->buffer;
+			obj.size = IO_INPUT(pKernelWriteData)->size;
+			PEPROCESS proc;
+			if (!PsLookupProcessByProcessId((HANDLE)obj.pid, &proc)) {
+				return 0;
+			}
+			memory::write_memory(proc, (void*)obj.buffer, (void*)obj.address, obj.size);
 		}
 		break;
-
 		}
 	}
 	__except (EXCEPTION_EXECUTE_HANDLER) {
